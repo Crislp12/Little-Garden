@@ -87,6 +87,7 @@
 
 .shop-link:hover {
   background-color: darkgreen !important;
+  opacity: .8;
   color: #ffff;;
 }
 
