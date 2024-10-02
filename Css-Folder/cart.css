@@ -1,0 +1,189 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #ffff !important;
+}
+
+.register-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  padding: 0%;
+}
+
+.long-in {
+  display: block;
+  font-size: 16px;
+}
+
+.long-in.long-in:hover {
+  color: rgb(76, 132, 0);
+}
+.second-navbar {
+  background-color: #ffff;
+  filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.1));
+}
+
+.nav-tittle {
+  display: inline;
+  margin-left: 2.1%;
+  color: rgb(76, 132, 0);
+}
+
+.nav-list {
+  display: inline;
+}
+
+.nav-links {
+  display: inline;
+  font-size: 20px;
+  margin-right: 1.3%;
+}
+
+.main-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main-link:hover {
+  color: rgb(76, 132, 0);
+}
+/* main part    */
+
+.checkout {
+  padding: 3%;
+}
+.checkout-title {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 0px;
+  width: 90%;
+  margin: auto;
+}
+
+/* form section */
+
+.form-container {
+  width: 80%;
+  margin: auto;
+}
+
+input[type='text'],
+input[type='email'] {
+  padding: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type='text']:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+#name,
+#last {
+  width: 44.4%;
+}
+
+#address {
+  width: 94.4%;
+}
+
+.form1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.form3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#city,
+#state,
+#postal {
+  width: 28%;
+}
+
+.form4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#email,
+#phone {
+  width: 44.4%;
+}
+
+.form5 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#cardNum {
+  width: 43%;
+}
+
+#my,
+#cvv {
+  width: 20%;
+}
+
+::placeholder {
+    color:  rgb(76, 132, 0);
+    opacity: 1; /* Firefox */
+  }
+
+.purchase-btn-container {
+  display: flex;
+  justify-content: flex-start; 
+}
+
+
+/* card checoout section  */
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(76, 132, 0);
+  border: 0px;
+  margin-left: auto;
+}
+
+.btn:hover {
+  background-color: rgb(76, 132, 0);
+  opacity: 0.8;
+}
+
+
+

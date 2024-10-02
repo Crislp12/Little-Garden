@@ -106,7 +106,8 @@
 /* preview section */
 
 .preview-title {
-  margin: 4%;
+  margin: 3%;
+  margin-left: 20.5%;
 }
 
 .container {
@@ -163,15 +164,34 @@ form {
   font-family: Arial;
 }
 
-.container-sub {
-  padding: 10px;
+.box1 {
   background-color: rgb(76, 132, 0);
 }
 
-input[type='text'],
-input[type='submit'] {
-  width: 100%;
+.sub-con{
+  width: 80%;
+  margin: auto;
+}
+
+.container-sub {
+  padding: 5px;
+  margin: auto;
+  background-color: rgb(76, 132, 0);
+}
+
+.subT{
+  margin-left: 1%;
+  margin-top: 6%;
+  margin-bottom: 0px;
+}
+
+#sub-form{
+  width: 80%;
+}
+
+input[type='text'] {
   padding: 12px;
+  border-radius: 25px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -179,10 +199,12 @@ input[type='submit'] {
 }
 
 input[type='checkbox'] {
-  margin-top: 16px;
+  margin-top: 10px;
+  color: #ccc;
 }
 
 input[type='submit'] {
+  padding: 8px;
   width: 35%;
   border-radius: 12px;
   background-color: rgb(255, 255, 255);
@@ -190,10 +212,6 @@ input[type='submit'] {
   border: none;
 }
 
-#subscribe-button {
-  display: flex;
-  justify-content: center;
-}
 
 input[type='submit']:hover {
   opacity: 0.8;
