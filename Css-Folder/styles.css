@@ -102,11 +102,12 @@
   padding: 10px;
   display: flex;
   justify-content: center;
-  background-color:  rgb(245, 247, 248);
+  background-color: rgb(245, 247, 248);
 }
 
-.img-intro{
-  width: auto; height: 600px;
+.img-intro {
+  width: auto;
+  height: 600px;
 }
 
 /* preview section */
@@ -147,11 +148,10 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 320px;
 }
- 
-.card-tall{
+
+.card-tall {
   grid-row: span 2 / auto;
 }
-
 
 /* footer navbar  */
 
@@ -265,13 +265,10 @@ input[type='submit']:hover {
   .card-tall {
     grid-row: span 2 / auto;
   }
-  
 }
 
-
-@media (600px <= width <= 1450px )  {
-  .img-intro{
-   height: 450px;
+@media (600px <= width <= 1450px) {
+  .img-intro {
+    height: 450px;
   }
 }
-

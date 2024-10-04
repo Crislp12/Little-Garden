@@ -55,12 +55,12 @@
 
 /* section mian  */
 
-main{
-    margin-bottom: 3%;
-    margin-top: 3%;
+main {
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
-.intro{
+.intro {
   display: grid;
   margin: auto;
   gap: 10px;
@@ -68,7 +68,7 @@ main{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 270px;
 }
-.card-2{
+.card-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,7 +85,6 @@ main{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
 }
 
 .dropdown {
@@ -118,7 +117,6 @@ main{
   align-items: center;
 }
 
-
 .footer {
   align-items: center;
 }
@@ -127,7 +125,6 @@ main{
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
 }
-
 
 /* form */
 form {
@@ -138,7 +135,7 @@ form {
   background-color: rgb(76, 132, 0);
 }
 
-.sub-con{
+.sub-con {
   width: 80%;
   margin: auto;
 }
@@ -149,13 +146,13 @@ form {
   background-color: rgb(76, 132, 0);
 }
 
-.subT{
+.subT {
   margin-left: 1%;
   margin-top: 6%;
   margin-bottom: 0px;
 }
 
-#sub-form{
+#sub-form {
   width: 80%;
 }
 
@@ -181,7 +178,6 @@ input[type='submit'] {
   color: rgb(76, 132, 0);
   border: none;
 }
-
 
 input[type='submit']:hover {
   opacity: 0.8;
@@ -227,12 +223,9 @@ input[type='submit']:hover {
   gap: 25px;
 }
 
-
-@media (600px <= width <= 1450px )  {
-
+@media (600px <= width <= 1450px) {
   .dropdown {
     margin-left: 15.5%;
- 
   }
 
   .intro {
@@ -242,7 +235,6 @@ input[type='submit']:hover {
     width: 72%;
   }
 }
-
 
 @media (width >= 1450px) {
   .card-container {
