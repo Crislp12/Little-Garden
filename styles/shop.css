@@ -103,12 +103,8 @@ main {
   opacity: 0.9;
 }
 
-.card-container {
-  margin: auto;
-  width: 52%;
-  gap: 15px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.container {
+  width: 55.2%;
 }
 
 .item {
@@ -231,8 +227,8 @@ input[type='submit']:hover {
   .intro {
     width: 69%;
   }
-  .card-container {
-    width: 72%;
+  .container {
+    width: 73%;
   }
 }
 
